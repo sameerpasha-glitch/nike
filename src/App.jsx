@@ -4,6 +4,7 @@ import Classic from "./components/Classic";
 import Feature from "./components/Feature";
 import Footer from "./components/Footer";
 import Members from "./components/Members";
+import Nav from "./components/nav";
 import Nav1 from "./components/Nav1";
 import Navbar from "./components/Navbar";
 import Sport from "./components/Sport";
