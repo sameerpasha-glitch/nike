@@ -1,0 +1,43 @@
+/** @format */
+
+.slider {
+  gap: 15px;
+  display: flex;
+  overflow: auto;
+  padding: 15px;
+}
+.shoes,
+.sport,
+.members {
+  cursor: pointer;
+}
+.shoes:hover {
+  transition: ease-in-out;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  filter: brightness(110%);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.shop-button {
+  position: absolute;
+  bottom: 10px;
+  left: 5rem;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.shop-button:hover {
+  padding: 15px 20px;
+  border-radius: 20px;
+  background-color: rgb(221, 216, 216);
+}

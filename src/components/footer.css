@@ -1,0 +1,50 @@
+/** @format */
+
+.footer {
+  background-color: white !important;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 5rem;
+}
+li {
+  list-style: none;
+  margin-top: 10px;
+}
+li:hover {
+  color: gray;
+}
+.footer1 {
+  display: flex;
+  margin-left: 4rem;
+  margin-top: 3rem;
+  gap: 15rem;
+}
+.guid-ul {
+  display: none;
+  position: fixed;
+  left: 20rem;
+  top: 31rem;
+  list-style: none;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 30px 30px;
+  padding: 1em;
+  gap: 5px;
+}
+
+.guide-cont:hover .guid-ul {
+  display: block;
+}
+
+.guid-li {
+  font-size: small;
+  color: black;
+}
+
+.guid-li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: gray;
+  transition: color 0.3s ease-in;
+}

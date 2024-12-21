@@ -1,0 +1,54 @@
+/** @format */
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  margin-right: 10px;
+  list-style-type: none;
+  cursor: pointer;
+}
+.logo {
+  margin-left: 3rem;
+  cursor: pointer;
+}
+button {
+  border-style: none;
+  margin-left: 1em;
+  padding: 10px;
+
+  background-color: white;
+}
+button:hover {
+  background-color: rgb(244, 244, 244);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+.new-li {
+  display: none;
+  list-style: none;
+  font-size: small;
+  position: fixed;
+  border: 1px transparent;
+  transition: ease-in-out;
+  background-color: white;
+  color: black;
+  padding: 3em;
+  padding-left: -40rem;
+  margin-top: 10px;
+  text-align: left;
+  gap: 10px;
+}
+.new-li li {
+  margin-top: 10px;
+  cursor: pointer;
+  transition: ease-in;
+}
+.new-li li:hover {
+  color: gray;
+}
+.new-cont:hover .new-li {
+  display: flex;
+}
